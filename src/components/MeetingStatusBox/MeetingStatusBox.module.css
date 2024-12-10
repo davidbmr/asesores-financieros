@@ -1,0 +1,38 @@
+.reunionProgramada__container {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 10px;
+}
+
+.reunionProgramada__item {
+	display: flex;
+	justify-content: center;
+	gap: 20px;
+}
+
+.reunionProgramada__pendiente {
+	background-color: #f8f9fa;
+	font-weight: 600;
+	color: #333;
+}
+.reunionProgramada__activa {
+	background-color: #d3f5f5;
+	border: 1px solid rgb(75, 192, 192);
+	color: darkgreen;
+	font-weight: 600;
+}
+.reunionProgramada__cancelada {
+	background-color: #ffecd9;
+	border: 1px solid rgb(255, 159, 64);
+	color: rgb(221, 128, 35);
+	font-weight: 600;
+}
+
+/* text */
+
+.reunionProgramada__item__link {
+	color: var(--primary-color-app);
+	font-weight: bold;
+}

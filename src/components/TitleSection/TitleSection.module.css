@@ -1,0 +1,34 @@
+.titleSection__container {
+	display: flex;
+	flex-direction: column;
+	padding-bottom: 20px;
+}
+
+.titleSection__title {
+	font-size: 24px;
+	font-weight: 600;
+	color: var(--primary-color-app);
+}
+
+.titleSection__breadcrumbs__container {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+.titleSection__backButton {
+	background-color: var(--primary-color-app);
+	display: grid;
+	place-content: center;
+	padding: 4px;
+	border-radius: 5px;
+  cursor: pointer;
+
+  transition: all 0.3s;
+}
+.titleSection__backButton:hover {
+  transform: scale(1.1);
+}
+
+
+
+

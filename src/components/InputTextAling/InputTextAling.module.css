@@ -1,0 +1,50 @@
+.InputText{
+  margin: 10px;
+  padding: 10px;
+  
+}
+
+.Label {
+  font-weight: bold;
+}
+
+.Input {
+  width: 100% !important;
+
+  height: 50px;
+}
+
+
+.InputTextsmall{
+margin: 10px;
+padding: 10px;
+}
+
+.Labelsmall {
+font-weight: bold;
+font-size: 15px;
+}
+
+.Inputsmall {
+width: 100% !important;
+
+height: 10px;
+}
+
+
+.InputTextaling {
+display: flex;
+align-items: center;
+margin-bottom: 10px;
+}
+
+.Labelaling {
+flex-basis: 25%;
+margin-right: 10px;
+text-align: right;
+}
+
+.Inputaling {
+/* flex-basis: 70%; */
+height: 1px;
+}

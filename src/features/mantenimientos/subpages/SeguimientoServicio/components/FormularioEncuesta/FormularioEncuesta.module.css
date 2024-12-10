@@ -1,0 +1,66 @@
+.formularioEncuesta__container {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	align-items: center;
+}
+
+.contentBox__container {
+	max-width: 1000px;
+}
+
+.pregunta {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.opciones {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.opciones__text {
+	font-size: 14px;
+	color: #4b5563;
+	font-weight: 500;
+}
+
+.formularioEncuesta__text {
+	color: #4b5563;
+	font-weight: 500;
+}
+
+.formularioEncuesta__box__button {
+	width: 40px;
+	height: 40px;
+
+	display: grid;
+	place-content: center;
+
+	border-radius: 100%;
+	border: 2px solid var(--primary-color-app);
+	font-size: 16px;
+	font-weight: bold;
+	background-color: #fff;
+	color: var(--primary-color-app);
+	transition: background-color 0.3s;
+	cursor: pointer;
+}
+.formularioEncuesta__box__button:hover {
+	background-color: #f1f8ff;
+}
+.formularioEncuesta__box__button__active {
+	background-color: var(--primary-color-app);
+	color: #fff;
+}
+
+.formularioEncuesta__button {
+	padding: 15px 25px;
+	background-color: var(--primary-color-app);
+	color: #fff;
+	border-radius: 5px;
+	border: none;
+	text-transform: uppercase;
+	font-weight: 600;
+}

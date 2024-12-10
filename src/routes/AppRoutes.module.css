@@ -1,0 +1,31 @@
+.mainContent__container {
+	display: grid;
+	min-height: 100vh;
+	grid-template-columns: 280px 1fr;
+	grid-template-rows: 80px 1fr;
+	grid-template-areas:
+		"sidebar mainHeaderContainer"
+		"sidebar routesContainer";
+	transition: grid-template-columns 0.3s ease;
+}
+
+.containerWithMenu {
+	display: grid;
+	grid-template-columns: 100px 1fr;
+	grid-template-areas:
+		"sidebar mainHeaderContainer"
+		"sidebar routesContainer";
+	transition: grid-template-columns 0.3s ease;
+}
+
+.sidebarContainer {
+	grid-area: sidebar;
+}
+
+.mainHeaderContainer {
+	grid-area: mainHeaderContainer;
+}
+
+.routesContainer {
+	grid-area: routesContainer;
+}

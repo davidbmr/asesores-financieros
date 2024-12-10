@@ -1,0 +1,8 @@
+.mainContent__container {
+	/* width: calc(100vw - 300px); */
+	width: 100%;
+	padding: 20px;
+
+	display: grid;
+	grid-template-columns: 1fr;
+}

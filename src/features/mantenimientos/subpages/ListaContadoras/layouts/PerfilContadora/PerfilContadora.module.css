@@ -1,0 +1,17 @@
+.seguimientoServicio__container {
+	display: flex;
+	flex-direction: column;
+	gap: 40px;
+}
+.perfilContadora__clientes__container {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+.perfilContadora__cliente__field {
+	display: flex;
+}
+.perfilContadora__label {
+	width: 200px;
+	font-weight: 600;
+}

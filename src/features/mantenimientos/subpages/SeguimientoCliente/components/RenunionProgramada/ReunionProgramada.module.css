@@ -1,0 +1,23 @@
+.reunionProgramada__container {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 10px;
+}
+
+.reunionProgramada__item {
+	display: flex;
+	justify-content: center;
+	gap: 20px;
+}
+
+.reunionProgramada__item a {
+  color: var(--primary-color-app);
+  font-weight: bold;
+}
+
+.reunionProgramada__item{
+	width: 80%;
+	margin-top: 2rem;
+}

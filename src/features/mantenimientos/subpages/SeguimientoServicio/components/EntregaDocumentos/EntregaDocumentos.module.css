@@ -1,0 +1,56 @@
+.entregaDocumentos__container {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.entregaDocumentos__title {
+	font-size: 18px;
+	font-weight: 600;
+	color: var(--primary-color-app);
+}
+
+.entregaDocumentos__lista {
+	display: grid;
+	/* grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); */
+	grid-template-columns: repeat(2, 1fr);
+}
+.entregaDocumentos__text {
+	font-weight: 500;
+	color: #4b5563;
+}
+.entregaDocumentos__text__limite {
+	font-weight: 500;
+	font-size: 14px;
+	color: #4b5563;
+}
+
+.uploadFieldContainer {
+	margin-bottom: 20px;
+  }
+  
+  .uploadedMessage {
+	display: flex;
+	align-items: center;
+	background-color: #e7f5e6;
+	border: 1px solid #c7e6c5;
+	padding: 10px;
+	border-radius: 5px;
+	color: #3c763d;
+  }
+  
+  .checkIcon {
+	margin-right: 10px;
+	color: #3c763d;
+  }
+  
+  .viewFileLink {
+	margin-left: auto;
+	text-decoration: none;
+	color: #007bff;
+  }
+  
+  .viewFileLink:hover {
+	text-decoration: underline;
+  }
+  

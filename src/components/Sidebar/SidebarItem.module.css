@@ -1,0 +1,26 @@
+.listItem {
+	display: flex;
+	justify-content: space-between;
+	border-radius: 5px;
+	color: #4b5563;
+
+	padding: 8px 0;
+	margin: 3px 0;
+	font-size: 14px;
+	font-weight: 500;
+}
+
+.listItem:hover {
+	background-color: #1118271a;
+}
+
+.listItem.active {
+	background-color: #1118271a;
+	border: none;
+	color: #111827;
+}
+
+.itemText {
+	padding-left: 20px;
+	color: #4b5563;
+}

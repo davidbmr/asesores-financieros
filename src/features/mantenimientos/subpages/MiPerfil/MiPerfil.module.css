@@ -1,0 +1,66 @@
+.column__container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+
+  }
+  
+  .textbox__field {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  .textbox__input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+  
+  .textbox__label {
+    font-weight: bold;
+    font-size: 0.9rem;
+    color: #333;
+  }
+  
+  .imageUploader {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+  
+  .inputFile {
+    display: none;
+  }
+  
+  .inputLabel {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  .imagePreview {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+  }
+  
+  .button__container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .p-button-sm {
+    padding: 10px 20px;
+    font-weight: bold;
+  }
+  

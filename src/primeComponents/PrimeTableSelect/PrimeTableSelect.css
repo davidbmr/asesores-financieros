@@ -1,0 +1,40 @@
+.container__check__1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%; 
+  gap: 10px;
+}
+
+.container__title {
+  flex: 1; 
+  margin-right: 10px;
+  text-align: center;
+}
+
+.container__check {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 5px;
+}
+
+.p-datatable .p-datatable-tbody tr.p-highlight {
+  background-color: #b5bff8;
+  color: black;
+}
+
+.card {
+  overflow: hidden; 
+}
+
+.container__check div {
+  width: 20px !important;
+}
+
+.container__check label {
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+

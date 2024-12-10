@@ -1,0 +1,30 @@
+.breadcrumbs {
+	display: flex;
+	gap: 5px;
+	padding: 10px 0;
+
+	font-size: 13px;
+	
+	color: #333;
+}
+
+.breadcrumbs .crumb:after {
+	content: "/";
+	margin-left: 5px;
+}
+.breadcrumbs .crumb:last-child:after {
+	display: none;
+}
+
+.crumb a {
+	color: #333;
+	padding: 2px 3px;
+	border-radius: 3px;
+	font-weight: 600;
+}
+
+.crumb a:hover {
+	background-color: var(--primary-color-app);
+	color: #fff;
+}
+

@@ -1,0 +1,23 @@
+@font-face {
+    font-family: DS-DIGI;
+    src: url(/Fonts/DS-DIGI.TTF);
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    gap: .2rem;
+  }
+  
+  .initialsInput {
+    text-align: right;
+    width: 20%;
+   
+
+  }
+  
+  .textInput {
+    text-align: right;
+    width: 80%;
+  }
+  

@@ -1,0 +1,21 @@
+.cardInfo__container {
+	border: solid 1px #dee2e6;
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+.cardInfo__header {
+	height: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+  font-weight: 500;
+}
+
+.cardInfo__body {
+	height: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-top: 1px solid #dee2e6;
+}

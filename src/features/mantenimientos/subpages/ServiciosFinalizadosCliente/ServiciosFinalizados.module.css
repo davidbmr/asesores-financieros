@@ -1,0 +1,39 @@
+/* ServiciosFinalizados.module.css */
+
+.statusFinalizado {
+    color: green;
+    font-weight: bold;
+}
+
+.statusCancelado {
+    color: red;
+    font-weight: bold;
+}
+
+.statusOtro {
+    color: gray;
+    font-weight: bold;
+}
+
+.fileButton {
+    background-color: #4F15FF;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+}
+
+.fileButton:hover {
+    background-color: #4f15ffc5;
+}
+
+.fileIcon {
+    margin-right: 8px;
+    font-size: 16px;
+}

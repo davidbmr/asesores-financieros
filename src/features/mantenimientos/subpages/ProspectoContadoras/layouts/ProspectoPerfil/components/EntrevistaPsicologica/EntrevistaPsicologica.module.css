@@ -1,0 +1,55 @@
+.entregaDocumentos__container {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.entregaDocumentos__title {
+	font-size: 18px;
+	font-weight: 600;
+	color: var(--primary-color-app);
+}
+
+.entregaDocumentos__lista {
+	display: grid;
+	/* grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); */
+	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+.entregaDocumentos__text {
+	font-weight: 500;
+	color: #4b5563;
+}
+.entregaDocumentos__text__limite {
+	font-weight: 500;
+	font-size: 14px;
+	color: #4b5563;
+}
+
+/* buttons */
+
+.resultados__box__container {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 20px;
+	align-items: center;
+}
+.resultados__item {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.resultados__box__buttons {
+	display: flex;
+	gap: 20px;
+}
+.resultados__box__buttons__item {
+	width: 50px;
+	height: 50px;
+}
+.resultados__box__button__icon {
+	width: 100%;
+	height: 100%;
+}
+.resultados__box__title{
+	font-weight: 500;
+}

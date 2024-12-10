@@ -1,0 +1,38 @@
+.resultados__container {
+	display: grid;
+	gap: 20px;
+}
+.resultados__title {
+	font-size: 18px;
+	font-weight: 600;
+	color: var(--primary-color-app);
+}
+
+.resultados__box__container {
+	display: grid;
+	gap: 20px;
+}
+
+.resultados__item {
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+}
+.resultados__box__title {
+	font-weight: 600;
+	font-size: 20px;
+	color: #4b5563;
+}
+.resultados__text {
+	font-weight: 500;
+	color: #4b5563;
+}
+.resultados__text__text__limite {
+	font-weight: 500;
+	font-size: 14px;
+	color: #4b5563;
+}
+
+.button__container {
+	display: flex;
+}

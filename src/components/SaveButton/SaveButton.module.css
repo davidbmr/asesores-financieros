@@ -1,0 +1,16 @@
+.button__action {
+	padding: 10px 20px;
+	display: flex;
+	flex-direction: column;
+  gap: 5px;
+
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+	border-radius: 5px;
+  background-color: #009262;
+  color: #fff
+}
+.button__text {
+	font-weight: 500;
+}

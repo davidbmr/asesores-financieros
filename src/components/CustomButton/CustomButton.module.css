@@ -1,0 +1,15 @@
+.button__action {
+	all: unset;
+	padding: 10px 20px;
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
+
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+	border-radius: 5px;
+}
+.button__text {
+	font-weight: 500;
+}
